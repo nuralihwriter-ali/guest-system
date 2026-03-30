@@ -1,0 +1,78 @@
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar hijau gradasi */
+.navbar {
+    background: linear-gradient(90deg, #006400, #28a745);
+}
+.navbar .nav-link {
+    color: #fff;
+    font-size: 0.85rem;
+    padding: 4px 10px;
+}
+.navbar .nav-link:hover {
+    color: #d4edda;
+}
+.navbar .nav-link.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Footer ramping */
+footer {
+    background: linear-gradient(90deg, #28a745, #006400);
+    font-size: 0.7rem;
+    padding: 4px 0;
+    margin-top: 10px;
+}
+
+/* Card dashboard */
+.card {
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+/* Tombol hijau */
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+}
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
+
+/* Tombol outline hijau */
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Tombol kecil ramping */
+.btn-sm {
+    font-size: 0.75rem;
+    padding: 2px 6px;
+    margin: 0 2px;
+}
+
+/* Table */
+.table th {
+    text-align: center;
+    font-size: 0.8rem;
+}
+.table td {
+    vertical-align: middle;
+    font-size: 0.8rem;
+}
+
+/* Foto preview */
+.img-thumbnail {
+    border: 1px solid #28a745;
+    padding: 2px;
+}
