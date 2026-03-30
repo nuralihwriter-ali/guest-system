@@ -122,4 +122,4 @@ def download_foto(filename):
     return "Foto tidak ditemukan", 404
 
 if __name__ == "__main__":
-    app.run(debug=True, port=3000)
+    app.run(host="0.0.0.0", port=8000)
